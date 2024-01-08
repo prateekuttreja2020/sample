@@ -24,8 +24,8 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-// import { getNumber } from './src/utility';   //working
-import { getNumber } from 'utility';   // not working
+import { getNumber } from './src/utility';   //working
+// import { getNumber } from 'utility';   // not working
 
 type SectionProps = PropsWithChildren<{
   title: string;
